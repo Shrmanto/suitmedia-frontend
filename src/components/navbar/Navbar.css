@@ -1,0 +1,38 @@
+.navbar {
+    padding: 15px 7%;
+    background-color: #ff6600;
+    transition: top 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.nav-link{
+    margin: 0px 12px;
+    color: #fff;
+    font-weight: 500;
+    border-bottom: 5px solid transparent;
+    transition: border-bottom-color 0.3s;
+}
+
+.nav-link:hover {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+.nav-link.active {
+    border-bottom-color: #fff;
+}
+
+.hidden {
+    top: -100px; /* Adjust this value based on your navbar height */
+}
+
+.show {
+    top: 0;
+}
+
+.solid {
+    background-color: #ff6600;
+}
+
+.transparent {
+    background-color: rgba(255, 102, 0, 0.8); /* Adjust the transparency as needed */
+}

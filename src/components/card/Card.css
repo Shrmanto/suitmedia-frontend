@@ -1,0 +1,23 @@
+.card {
+    width: 20rem;
+    height: 25rem;
+}
+
+.card-img-top {
+    width: auto;
+    height: 48rem;
+    object-fit: cover;
+}
+
+.card-text {
+    color: rgba(0, 0, 0, 0.500);
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: left;
+}

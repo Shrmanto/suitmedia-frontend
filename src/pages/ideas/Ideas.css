@@ -1,0 +1,22 @@
+body{
+    min-height: 2000px;
+}
+
+.content-hero h1{
+    color: #fff;
+    font-size: 3.5rem;
+}
+
+.content-hero p{
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+#content-card .container-fluid {
+    padding: 15px 7%;
+}
+
+.form-select {
+    width: 150px;
+    border-radius: 100px;
+}
